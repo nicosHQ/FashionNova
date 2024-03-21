@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #333;
+    background-color: rgb(230, 217, 191);
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    color: rgb(0, 0, 0);
+}
+    .header a{
+        text-decoration: none;
+        color: #713C25;
+    }
+.nav ul{
+    margin: 70;
+    padding-right: 20px;
+    list-style: none;
+}
+    .nav ul li{
+        display: inline-block;
+        margin: 30px;
+    }
+        .nav ul li a{
+            display: block;
+        }
+            .nav ul li a:hover{
+                text-decoration: underline;
+            }
+.containerlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FOR{
+    background: #BE6C42;
+    border-radius: 0px 0px 30px 0px;
+    width: 70px;
+    height: 70px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+    padding: 0.5rem 1rem;
+}
+.containermenu{
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.otherimg{
+    display: flex;
+    justify-content: flex-end;
+    height: 120px;
+    width: 120px;
+    position: absolute; right: 1%;
+    opacity: 80%;
+}
+.centerimg{
+    display: flex;
+    justify-content: center;
+    position: relative; z-index: 3; left: 0%;
+    margin-top: 9%;
+}
+.box{
+    background: #BE6C42;
+    border: 100px;
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.Yellow{
+    font-family: 'DM Serif Display', serif;
+    color: #713C25;
+    font-size: 40pt;
+    position: absolute; z-index: 1; left: 31%; top: 15%;
+
+}
+.Brown{
+    color: #F7E7CE;
+    font-size: 184px;
+    margin-top: 2%;
+    position:absolute; z-index:2; left: 37%; top:13%;
+    font-family: 'Apparel Display', serif;
+}
+.Beaggie{
+    color: #BE6C42;
+    font-size: 296px;
+    margin-top: 3%;
+    position: absolute; z-index: 1; left: 19%; top: 25%;
+    font-family: 'Apparel Display', serif;
+}
+
+.Brown2{
+    font-family: 'Gilroy Light', serif;
+    color: #713C25;
+    position: absolute; z-index: 1; left: 19%; top: 45%;
+
+}
+.a2022{
+    font-family: 'Apparel Display', serif;
+    position: absolute; z-index: 1; left: 11%; top: 80%;
+    opacity: 10%;
+}
+.inner {
+    font-size: 340px;
+    color: #BE6C42;
+      position: absolute;
+    top: 50%;
+      margin-top: -7px;
+  }
+  
+  .rotate {
+    -webkit-transform: rotate(-90deg);
+    -ff-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 16px;  /* transform: rotate() does not rotate the bounding box. */
+  }
+.bannertext1{
+    display: flex;
+    justify-content: flex-start;
+}
+.vidio{
+    position: absolute;z-index: 1; left: 85%; top: 68%;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    height: 2895px;
+    background-image: url(./img/Fondomujer.jpg);
+    background-position: center;
+}
+.cuadrado {
+    width: 20px;           /* Ancho de 150 píxeles */
+    height: 20px;          /* Alto de 150 píxeles */
+    background: #BE6C42;        /* Fondo de color rojo */
+    border: 2px solid #BE6C42; /* Borde color negro y de 1 píxel de grosor */
+    position: absolute; z-index: 1; left: 7%; top: 125%;
+  }
+.minitext{
+    font-size: 22px;
+    color: #713C25;
+    position: absolute; z-index: 1; left: 9%; top: 125%;
+}
+.texth{
+    display: flex;
+    align-items: flex-start;
+    margin: 20% 37% 0 10%;
+    font-family: 'Apparel Display', serif;
+    font-size: 180px;
+    color: #713C25;
+    height: 100%;
+    line-height: 180px;
+}
+    .midtext{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10% 50% 0 10%;
+        font-size: 50px;
+    }
+    .ptext{
+        display: flex;
+        text-align: end;
+        font-size: 17px;
+        line-height: 40px;
+        margin: 1% 22% 0 20%;
+        color: #713C25;
+    }
+    .ptext2{
+        font-size: 40px;
+        line-height: 54px;
+        color: #713C25;
+    }
+    .line{
+        position: absolute; z-index: 1; left: 34%; top: 247%;
+        height: 370px;
+        width:.1vw;
+        border-width:0;
+        color:#BE6C42;
+        background-color:#BE6C42;
+    }
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: absolute; z-index: 1; left: 25%; top: 230%;
+}
+button{
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #E2D2B7;
+    color: #713C25;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+button:hover{
+    color: #653B29;
+}
+button span{
+    position: absolute;
+    background: #653B29;
+    transition: .5s;
+}
+button span:nth-child(1){
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+button span:nth-child(2){
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+button span:nth-child(3){
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0%;
+}
+button span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0%;
+}
+button:hover span:nth-child(1){
+    left: 0;
+}button:hover span:nth-child(2){
+    right: 0;
+}button:hover span:nth-child(3){
+    bottom: 0;
+}button:hover span:nth-child(4){
+    top: 0;
+}
+.Disc{
+    font-family: 'Apparel Display', serif;
+    color: #653B29;
+
+}
+.centerimg2{
+    display: flex;
+    justify-content: center;
+    position: absolute; z-index: 0; left: 22%; top: 360%;
+}
+.big{
+    color: #713C25;
+    font-size: 396px;
+    position: absolute; z-index: 2; left: 20%; top: 350%;
+}
+.beauty{
+    color: #BE6C42;
+    font-size: 396px;
+    position: absolute; z-index: 2; left: 33%; top: 380%;
+}
+.midtext2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 50% 0 10%;
+    font-size: 50px;
+
+}
+.ptext3{
+    font-size: 17px;
+    line-height: 40px;
+    color: #713C25;
+    margin: 22% 22% 0 20%;
+    position: absolute; z-index: 2; left: 30%; top: 398%;
+}
+.ptext4{
+    display: flex;
+    text-align: end;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 1% 60% 0 5%;
+    color: #713C25;
+    position: absolute; z-index: 2; left: 10%; top: 415%;
+}
+.line2{
+    position: absolute; z-index: 2; left: 47%; top: 418%;
+    height: 420px;
+    width:.1vw;
+    border-width:0;
+    color:#BE6C42;
+    background-color:#BE6C42;
+}
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: absolute; z-index: 2; left: 35%; top: 394%;
+}
+.box2{
+    margin-top: 40%;
+    background: #BE6C42;
+    border: 0%;
+    height: 800px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    position: absolute; z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.bannertext4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    color: #F7E7CE;
+    margin: 10% 24% 20% 24%;
+    line-height: 70px;
+}
+.bannertext5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 300px;
+    color: #F7E7CE;
+    margin: -390% 24% 0 24%;
+}
+.bannertext6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    color: #F7E7CE;
+    margin-top: -23%;
+}
+.container3{
+    height: 1510px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    height: 1915px;
+    background-image: url(./img/2222222.png);
+    background-position: center;
+    border: none;
+}
+.look{
+    color: #BE6C42;
+    font-size: 396px;
+    position: absolute; z-index: 2; left: 20%; top: 635%;
+
+}
+.book{
+    color: #713C25;
+    font-size: 396px;
+    position: absolute; z-index: 2; left: 39%; top: 668%;
+}
+.line3{
+    position: absolute; z-index: 2; left: 74%; top: 600%;
+    height: 420px;
+    width:.1vw;
+    border-width:0;
+    color:#BE6C42;
+    background-color:#BE6C42;
+}
+.ptext5{
+    display: flex;
+    align-content: center;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 29% 10% 0 75%;
+    color: #713C25;
+}
+.logo2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 170px;
+    width: 180px;
+    opacity: 80%;
+}
+.itemmarca{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 0% 0% 0;
+    position: absolute; z-index: 2; left: 76%; top: 600%;
+}
+.fory{
+    font-family: 'DM Serif Display', serif;
+    color: #F7E7CE;
+    font-size: 80pt;
+    position: absolute; z-index: 1; left: 29%;
+}
+.youu{
+    color: #713C25;
+    font-size: 80pt;
+    position: absolute; z-index: 1; left: 43%;
+
+}
+.foryou{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 27%;
+}
+.button3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: absolute; z-index: 1; left: 42%; top: 687%;
+}
+.centerimg3{
+    display: flex;
+    justify-content: center;
+    position: absolute; z-index: 0; left: 53%; top: 743%;
+}
+.container5{
+    height: auto;
+}
+.textprefoter{
+    font-size: 40px;
+    display: flex;
+    text-align: end;
+    line-height: 40px;
+    margin: 2% 50% 0 20%;
+    color: #713C25;
+}
+.container6{
+    height: 100px;
+}
+.FOR2{
+    font-family: 'DM Serif Display', serif;
+    color: #713C25;
+    font-size: 40pt;
+    position: absolute; z-index: 1; left: 20%; top: 810%;
+}
+.Future{
+    color: #F7E7CE;
+    font-size: 184px;
+    margin-top: 2%;
+    position:absolute; z-index:2; left: 26%; top:812%;
+}
+.Couture{
+    color: #BE6C42;
+    font-size: 296px;
+    margin-top: 3%;
+    position: absolute; z-index: 1; left: 15%; top: 823%;
+    font-family: 'Apparel Display', serif;
+}
+.lastest{
+    font-size: 24px;
+    color: #713C25;
+    position: absolute; z-index: 1; left: 57%; top: 842%;
+}
+.container7{
+    height: 500px;
+}
+.ptext6{ 
+    display: flex;
+    align-content: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 34% 50% 0 15%;
+    color: #713C25;
+}
